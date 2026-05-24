@@ -5,6 +5,7 @@
 - Docker + Docker Compose
 - Recommended Node.js `18+` / `npm` if you want to run services locally outside Docker
 - For Docker mode, no manual `.env` setup is required (Compose uses committed `backend/.env.example` and `frontend/.env.example`).
+- The `.env.example` values are demo-safe defaults for local review (no private secrets are required for this test task).
 
 ## One-command startup
 

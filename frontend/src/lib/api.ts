@@ -6,7 +6,7 @@ import {
   clearTokens,
 } from './auth';
 
-const baseUrl = process.env.NEXT_PUBLIC_API_URL || '';
+const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001/api';
 
 type RequestOptions = Omit<RequestInit, 'headers' | 'body'> & {
   headers?: Record<string, string>;

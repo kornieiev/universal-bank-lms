@@ -5,7 +5,7 @@ services:
     image: postgres:15-alpine
     restart: unless-stopped
     env_file:
-      - backend/.env.development
+      - backend/.env.example
     environment:
       POSTGRES_DB: bank
       POSTGRES_USER: postgres
@@ -26,8 +26,9 @@ services:
     build:
       context: ./backend
     env_file:
-      - backend/.env.development
+      - backend/.env.example
     environment:
+      APP_PORT: 5001
       DB_HOST: postgres
       DB_PORT: 5432
       DB_SYNCHRONIZE: false
@@ -44,7 +45,7 @@ services:
     build:
       context: ./frontend
     env_file:
-      - frontend/.env.development
+      - frontend/.env.example
     environment:
       NODE_ENV: production
     ports:

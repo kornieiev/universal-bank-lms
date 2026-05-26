@@ -1,4 +1,4 @@
-# Universal Bank LMS
+# UB LMS
 
 ## Requirements
 

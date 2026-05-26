@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between gap-6 border-b border-zinc-200 bg-white px-6 py-4">
       <div className="flex items-center gap-8">
-        <div className="text-lg font-semibold text-zinc-900">Universal Bank LMS</div>
+        <div className="text-lg font-semibold text-zinc-900">U Bank LMS</div>
 
         <nav className="flex items-center gap-4">
           {links.map((link) => {

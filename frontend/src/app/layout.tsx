@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Universal Bank LMS",
-  description: "Internal LMS platform for Universal Bank",
+  title: "U Bank LMS",
+  description: "Internal LMS platform for U Bank",
 };
 
 export default function RootLayout({
